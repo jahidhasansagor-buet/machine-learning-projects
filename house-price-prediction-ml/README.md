@@ -20,14 +20,14 @@ and deploying the best model as an interactive web app using Gradio.
 
 | Model | Train R² | Test R² | Test MSE |
 |-------|----------|---------|----------|
-| Linear Regression | — | — | — |
-| Ridge Regression (alpha=10) | — | — | — |
-| Lasso Regression (alpha=100) | — | — | — |
-| Polynomial (deg=2) + Ridge | — | — | — |
-| KNN (k=5) | — | — | — |
-| KNN (k=10) | — | — | — |
-
-> ⚠️ Fill in the actual values after running `2_training.ipynb`.
+| Linear Regression | 0.9180 | 0.9180 | 1.008901e+10 |
+| Ridge Regression (alpha=10) | 0.9180 | 0.9180 | 1.008965e+10 |
+| Lasso Regression (alpha=100) | 0.9180 | 0.9180 | 1.008859e+10 |
+| Polynomial (deg=2) + Ridge | 0.9181 |0.9179 | 1.009954e+10 |
+| KNN (k=10) | 0.8987 | 0.8753 | 1.534290e+10 |
+| KNN (k=5) | 0.9109 | 0.8693 | 1.607824e+10 |
+| KNN (k=3) | 0.9280 | 0.8507 | 1.836970e+10 |
+| KNN (k=1) | 1.0000 | 0.7767 | 2.747168e+10 |
 
 ## Final Model
 
@@ -51,8 +51,8 @@ Deployed using [Gradio](https://gradio.app).
 ## Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/house-price-prediction
-cd house-price-prediction
+git clone https://github.com/jahidhasansagor-buet/machine-learning-projects.git
+cd machine-learning-projects/house-price-prediction-ml
 pip install -r requirements.txt
 ```
 
