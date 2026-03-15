@@ -1,4 +1,4 @@
-# 🏠 House Price Prediction & Deployment
+# House Price Prediction & Deployment
 
 ## Overview
 A complete machine learning project that predicts US house prices based on area-level statistics.
@@ -31,14 +31,12 @@ and deploying the best model as an interactive web app using Gradio.
 
 ## Final Model
 
-**Model:** *(fill in after training)*  
-**Test R²:** *(fill in)*  
-**Test MSE:** *(fill in)*  
+**Model:** Linear Regression 
+**Test R²:** 0.9180  
+**Test MSE:** 1.0089009301e+10  
 
 **Why this model?**  
-*(Explain based on your results — e.g., "Best Test R² with no significant overfitting.
-Polynomial features captured slight non-linearity observed in EDA scatter plots.
-Ridge regularization prevented overfitting on expanded feature space.")*
+Linear Regression gives almost the same performance on the training and test sets (Train R² ≈ Test R²), so it does not overfit. At the same time, its Test R² and Test MSE are as good as or better than the more complex models, while the model itself stays simple and easy to interpret.
 
 ## Web Application
 
@@ -76,9 +74,9 @@ python app.py
 ## Project Structure
 
 ```
-house-price-prediction/
+house-price-prediction-ml/
 ├── data/
-│   └── usa_housing.csv
+│   └── USA_Housing.csv
 ├── notebooks/
 │   ├── 1_eda.ipynb
 │   └── 2_training.ipynb
