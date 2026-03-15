@@ -91,7 +91,7 @@ house-price-prediction/
 └── requirements.txt
 ```
 
-## Technologies Used
+## Tools and Libraries
 
 - Python
 - Pandas, NumPy, Matplotlib, Seaborn
