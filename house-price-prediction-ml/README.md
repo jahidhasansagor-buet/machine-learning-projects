@@ -31,9 +31,9 @@ and deploying the best model as an interactive web app using Gradio.
 
 ## Final Model
 
-**Model:** Linear Regression 
-**Test R²:** 0.9180  
-**Test MSE:** 1.0089009301e+10  
+**Model:** Linear Regression   
+**Test R²:** 0.9180   
+**Test MSE:** 1.0089009301e+10    
 
 **Why this model?**  
 Linear Regression gives almost the same performance on the training and test sets (Train R² ≈ Test R²), so it does not overfit. At the same time, its Test R² and Test MSE are as good as or better than the more complex models, while the model itself stays simple and easy to interpret.
