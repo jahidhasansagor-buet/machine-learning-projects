@@ -1,8 +1,8 @@
-# 📰 Fake News Classifier & Deployment
+# Fake News Classifier & Deployment
 
 A complete NLP machine learning project that classifies news articles as **Fake** or **Real** using Natural Language Processing and deploys the model as an interactive web application.
 
-## 🎯 Project Overview
+## Project Overview
 
 This project demonstrates the end-to-end process of building, training, and deploying a machine learning model for fake news detection:
 
@@ -10,7 +10,7 @@ This project demonstrates the end-to-end process of building, training, and depl
 2. **Model Training** - Train and compare multiple classification models
 3. **Web Deployment** - Deploy the best model using Gradio
 
-## 📊 Dataset
+## Dataset
 
 - **Source:** Fake and Real News Dataset
 - **Features:** News article text
@@ -22,7 +22,7 @@ This project demonstrates the end-to-end process of building, training, and depl
 ### Data Distribution
 The dataset is **balanced**, with roughly equal representation of both classes, which is ideal for training classification models.
 
-## 🔍 Key Findings from EDA
+## Key Findings from EDA
 
 ### 1. Text Length Analysis
 - **Fake articles** tend to be **longer** on average
@@ -40,14 +40,14 @@ The dataset is **balanced**, with roughly equal representation of both classes, 
 - ✅ No duplicate entries
 - ✅ Balanced dataset (52.3% vs 47.7%)
 
-## 🧠 Model Comparison
+## Model Comparison
 
 | Model | Accuracy | Precision | Recall | F1-Score |
 |-------|----------|-----------|--------|----------|
 | **Multinomial Naive Bayes** | 0.9694 | 0.9697 | 0.9694 | 0.9694 |
 | **Logistic Regression** | 0.9962 | 0.9962 | 0.9962 | 0.9962 |
 
-## 🏆 Final Model
+## Final Model
 
 **Model:** Logistic Regression  
 **Accuracy:** 99.62%  
@@ -60,7 +60,7 @@ The dataset is **balanced**, with roughly equal representation of both classes, 
 ✅ **Better Handling of Correlations:** More effective with correlated features common in text data  
 ✅ **Probability Estimates:** Provides reliable confidence scores for predictions  
 
-## 🔧 Preprocessing Pipeline
+## Preprocessing Pipeline
 
 1. **Text Cleaning:**
    - Lowercase conversion
@@ -75,7 +75,7 @@ The dataset is **balanced**, with roughly equal representation of both classes, 
    - Stopword removal: English stopwords
    - Min document frequency: 2
 
-## 🌐 Web Application
+## Web Application
 
 The model is deployed using **Gradio**, providing an interactive web interface where users can:
 - Paste news articles for classification
@@ -90,7 +90,7 @@ The model is deployed using **Gradio**, providing an interactive web interface w
 - ✅ Pre-loaded example articles
 - ✅ Model information display
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 fake-news-classifier/
@@ -113,11 +113,12 @@ fake-news-classifier/
 └── README.md                       # Project documentation
 ```
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/fake-news-classifier.git
+git clone https://github.com/jahidhasansagor-buet/machine-learning-projects.git
+cd machine-learning-projects
 cd fake-news-classifier
 ```
 
@@ -172,19 +173,17 @@ This notebook contains:
 python app.py
 ```
 
-The app will launch at `http://localhost:7860`
-
 ### Using the App:
 1. Open the URL in your browser
 2. Paste a news article in the text box
 3. Click "Classify Article"
 4. View the prediction and confidence scores
 
-## 📸 Screenshots
+## Screenshots
 
 ![Gradio Interface](screenshots/gradio_interface.png)
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Python 3.8+**
 - **Data Analysis:** Pandas, NumPy
@@ -194,7 +193,7 @@ The app will launch at `http://localhost:7860`
 - **Web Framework:** Gradio
 - **Model Serialization:** Joblib
 
-## 📈 Model Performance Details
+## Model Performance Details
 
 ### Confusion Matrix (Logistic Regression)
 
@@ -215,14 +214,14 @@ The app will launch at `http://localhost:7860`
 - Recall: 0.998
 - F1-Score: 0.996
 
-## ⚠️ Limitations & Considerations
+## Limitations & Considerations
 
 1. **Dataset Specificity:** The model is trained on a specific dataset and may not generalize perfectly to all news sources
 2. **Language:** Currently supports English-language articles only
 3. **Context:** The classifier analyzes text patterns, not factual accuracy
 4. **Verification:** Always verify important information from multiple reliable sources
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - [ ] Add support for multiple languages
 - [ ] Implement BERT/Transformer-based models for improved accuracy
@@ -232,21 +231,13 @@ The app will launch at `http://localhost:7860`
 - [ ] Add URL input for direct article fetching
 - [ ] Implement user feedback mechanism
 
-## 👨‍💻 Author
-
-**Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Dataset source: [Fake and Real News Dataset](https://www.kaggle.com/datasets)
-- Inspired by the need to combat misinformation
-- Built with guidance from NLP and ML best practices
 
 ## 📚 References
 
@@ -254,6 +245,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Gradio Documentation: https://gradio.app/
 - NLTK Documentation: https://www.nltk.org/
 
----
-
-**⭐ If you find this project helpful, please consider giving it a star!**
