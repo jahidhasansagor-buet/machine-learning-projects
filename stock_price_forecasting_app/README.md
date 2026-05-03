@@ -14,7 +14,6 @@ A Streamlit web application that downloads live stock market data and forecasts 
 - **Business Day Awareness**: Forecasts skip weekends, matching real market behavior
 
 ## Live Demo
-https://jahid-machine-learning-projects-stock-forecasting.streamlit.app/
 [https://jahid-stock-forecasting.streamlit.app](https://jahid-machine-learning-projects-stock-forecasting.streamlit.app/)
 
 ## Requirements
