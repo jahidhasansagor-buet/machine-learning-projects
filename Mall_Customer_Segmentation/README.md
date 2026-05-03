@@ -55,7 +55,7 @@ This project implements customer segmentation using K-Means clustering to identi
 | CustomerID | Unique ID assigned to each customer |
 | Gender | Gender of the customer (Male/Female) |
 | Age | Age of the customer |
-| Annual Income (k$) | Annual income in thousands of dollars |
+| Annual Income | Annual income in thousands of dollars |
 | Spending Score (1-100) | Score assigned based on spending behavior and patterns |
 
 ### Dataset Statistics:
