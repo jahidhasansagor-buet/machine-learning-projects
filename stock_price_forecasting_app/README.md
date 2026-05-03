@@ -1,8 +1,8 @@
-# 📈 Stock Price Forecasting App
+# Stock Price Forecasting App
 
 A Streamlit web application that downloads live stock market data and forecasts future prices using Facebook's Prophet time series forecasting model.
 
-## 🌟 Features
+## Features
 
 - **Live Stock Data**: Automatically downloads historical stock prices using `yfinance`
 - **Interactive Stock Selection**: Choose from 8 major stocks (AAPL, GOOGL, MSFT, TSLA, AMZN, META, NFLX, NVDA)
@@ -13,11 +13,11 @@ A Streamlit web application that downloads live stock market data and forecasts 
 - **Export Functionality**: Download forecast data as CSV
 - **Business Day Awareness**: Forecasts skip weekends, matching real market behavior
 
-## 🚀 Live Demo
+## Live Demo
+https://jahid-machine-learning-projects-stock-forecasting.streamlit.app/
+[https://jahid-stock-forecasting.streamlit.app](https://jahid-machine-learning-projects-stock-forecasting.streamlit.app/)
 
-[Add your Streamlit Cloud URL here after deployment]
-
-## 📋 Requirements
+## Requirements
 
 - Python 3.8+
 - Dependencies listed in `requirements.txt`:
@@ -28,12 +28,12 @@ A Streamlit web application that downloads live stock market data and forecasts 
   - matplotlib
   - prophet
 
-## 🛠️ Local Installation
+## Local Installation
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/stock-forecast-app.git
-cd stock-forecast-app
+git clone https://github.com/jahidhasansagor-buet/machine-learning-projects.git
+cd stock_price_forecasting_app
 ```
 
 2. Install dependencies:
@@ -46,9 +46,9 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-4. Open your browser to `http://localhost:8501`
+4. Open browser to `http://localhost:8501`
 
-## 📊 How to Use
+## How to Use
 
 1. **Select a Stock**: Use the sidebar dropdown to choose from available stocks
 2. **Set Date Range**: Pick start and end dates for historical data
@@ -57,7 +57,7 @@ streamlit run app.py
 5. **Analyze Results**: View historical charts, forecast plots, and key metrics
 6. **Export Data**: Download the forecast as a CSV file if needed
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 stock-forecast-app/
@@ -66,21 +66,21 @@ stock-forecast-app/
 └── README.md          # Project documentation
 ```
 
-## 🌐 Deployment to Streamlit Cloud
+## Deployment to Streamlit Cloud
 
 1. Create a public GitHub repository and push your code
 2. Go to [share.streamlit.io](https://share.streamlit.io)
 3. Sign in with your GitHub account
 4. Click "Create app" → "Deploy a public app from GitHub"
 5. Configure:
-   - Repository: `yourusername/stock-forecast-app`
+   - Repository: `jahidhasansagor-buet/machine-learning-projects/stock_price_forecasting_app`
    - Branch: `main`
    - Main file path: `app.py`
    - App URL: Choose a custom URL
 6. Click "Deploy"
 7. Wait for deployment (usually 2-5 minutes)
 
-## 📈 About the Technologies
+## About the Technologies
 
 ### yfinance
 A Python library that provides easy access to Yahoo Finance data. It downloads historical market data including Open, High, Low, Close prices, and Volume.
@@ -92,26 +92,26 @@ Developed by Facebook's Core Data Science team, Prophet is designed for forecast
 - Trend changes and outliers
 - Holiday effects
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This application is for **educational purposes only**. The forecasts provided should not be used as the sole basis for investment decisions. Stock market predictions are inherently uncertain, and past performance does not guarantee future results.
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Feel free to:
 - Report bugs
 - Suggest new features
 - Submit pull requests
 
-## 📝 License
+## License
 
 This project is open source and available under the MIT License.
 
-## 👨‍💻 Author
+## Author
 
-Prepared by Kawchar Husain
+Prepared by Md Jahid Hasan Sagor
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **yfinance**: For providing easy access to stock market data
 - **Prophet**: For the powerful forecasting algorithm
