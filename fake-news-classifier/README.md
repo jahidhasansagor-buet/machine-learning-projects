@@ -139,7 +139,7 @@ import nltk
 nltk.download('stopwords')
 ```
 
-## 📓 Running the Notebooks
+## Running the Notebooks
 
 ### 1. EDA Notebook
 ```bash
@@ -166,7 +166,7 @@ This notebook contains:
 - Model comparison with confusion matrices
 - Best model selection and saving
 
-## 🖥️ Running the Web App
+## Running the Web App
 
 ### Start the Gradio Application
 ```bash
@@ -231,7 +231,7 @@ python app.py
 - [ ] Add URL input for direct article fetching
 - [ ] Implement user feedback mechanism
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
@@ -239,7 +239,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - Dataset source: [Fake and Real News Dataset](https://www.kaggle.com/datasets)
 
-## 📚 References
+## References
 
 - Scikit-learn Documentation: https://scikit-learn.org/
 - Gradio Documentation: https://gradio.app/
