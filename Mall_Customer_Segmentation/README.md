@@ -1,4 +1,4 @@
-# 🛍️ Mall Customer Segmentation
+# Mall Customer Segmentation
 
 A machine learning web application that performs customer segmentation using K-Means clustering on mall customer data. Built with Streamlit for interactive data exploration and visualization.
 
@@ -7,11 +7,11 @@ A machine learning web application that performs customer segmentation using K-M
 ![Scikit-learn](https://img.shields.io/badge/scikit--learn-latest-orange.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
-## 🚀 Live Demo
+## Live Demo
 
-**Try the app here:** [https://mall-customer-segmentation.streamlit.app](https://mall-customer-segmentation.streamlit.app)
+**Try the app here:** [https://mall-customer-segmentation.streamlit.app](https://mall-customer-segmentation.streamlit.app](https://jahid-machine-learning-projects-mall-customer-segmentation.streamlit.app/)
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -24,7 +24,7 @@ A machine learning web application that performs customer segmentation using K-M
 - [Learning Outcomes](#learning-outcomes)
 - [Author](#author)
 
-## 🎯 Overview
+## Overview
 
 This project implements customer segmentation using K-Means clustering to identify distinct groups of mall customers based on their annual income and spending score. The interactive web application helps businesses understand their customer base and develop targeted marketing strategies.
 
@@ -34,23 +34,23 @@ This project implements customer segmentation using K-Means clustering to identi
 - Understand spending patterns
 - Support data-driven marketing decisions
 
-## ✨ Features
+## Features
 
 ### Core Features
-- **📊 Dataset Overview**: Comprehensive dataset statistics and preview
-- **📉 Elbow Method Analysis**: Visual tool to determine optimal number of clusters
-- **🔄 K-Means Clustering**: Interactive clustering with adjustable K value (2-10)
-- **📊 Cluster Visualization**: Scatter plots showing customer segments
-- **☁️ Live Deployment**: Accessible via public Streamlit Cloud URL
+- **Dataset Overview**: Comprehensive dataset statistics and preview
+- **Elbow Method Analysis**: Visual tool to determine optimal number of clusters
+- **K-Means Clustering**: Interactive clustering with adjustable K value (2-10)
+- **Cluster Visualization**: Scatter plots showing customer segments
+- **Live Deployment**: Accessible via public Streamlit Cloud URL
 
 ### Advanced Features
-- **🎯 Automatic K Suggestion**: Uses KneeLocator algorithm for optimal cluster detection
-- **📋 Cluster Profiles**: Detailed statistical analysis of each customer segment
-- **👥 Gender Distribution**: Gender breakdown analysis per cluster
-- **💡 Smart Insights**: Automatic categorization of clusters (High Value, Budget Conscious, etc.)
-- **💾 Export Functionality**: Download clustered data and analysis results as CSV
+- **Automatic K Suggestion**: Uses KneeLocator algorithm for optimal cluster detection
+- **Cluster Profiles**: Detailed statistical analysis of each customer segment
+- **Gender Distribution**: Gender breakdown analysis per cluster
+- **Smart Insights**: Automatic categorization of clusters (High Value, Budget Conscious, etc.)
+- **Export Functionality**: Download clustered data and analysis results as CSV
 
-## 📊 Dataset
+## Dataset
 
 **File**: `Mall_Customers.csv`
 
@@ -68,7 +68,7 @@ This project implements customer segmentation using K-Means clustering to identi
 - **Features**: 5
 - **Target Variables for Clustering**: Annual Income, Spending Score
 
-## 🚀 Installation
+## Installation
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -90,7 +90,7 @@ pip install -r requirements.txt
 streamlit --version
 ```
 
-## 💻 Usage
+## Usage
 
 ### Run Locally
 ```bash
@@ -112,7 +112,7 @@ The app will open in your default browser at `http://localhost:8501`
 - **Expandable Sections**: Click to view detailed dataset information
 - **Download Buttons**: Export results as CSV files
 
-## 🌐 Deployment
+## Deployment
 
 This app is deployed on **Streamlit Cloud** and accessible at:
 **[https://mall-customer-segmentation.streamlit.app](https://mall-customer-segmentation.streamlit.app)**
@@ -127,7 +127,7 @@ This app is deployed on **Streamlit Cloud** and accessible at:
    - Sign in with your GitHub account
    - Click **"New app"**
    - Fill in the deployment form:
-     - **Repository**: `your-username/machine-learning-projects`
+     - **Repository**: `jahidhasansagor-buet/machine-learning-projects`
      - **Branch**: `main`
      - **Main file path**: `Mall_Customer_Segmentation/app.py`
    - Click **"Deploy"**
@@ -139,7 +139,7 @@ This app is deployed on **Streamlit Cloud** and accessible at:
 ### Environment Requirements
 All dependencies are specified in `requirements.txt` and will be automatically installed during deployment.
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Mall_Customer_Segmentation/
@@ -153,7 +153,7 @@ Mall_Customer_Segmentation/
 └── .gitignore                  # Git ignore file
 ```
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 ### Core Technologies
 - **Python 3.8+**: Programming language
@@ -169,64 +169,18 @@ Mall_Customer_Segmentation/
 ### Additional Libraries
 - **kneed**: Automatic elbow detection using KneeLocator algorithm
 
-## 🎓 Learning Outcomes
 
-This project demonstrates:
-- **Unsupervised Learning**: K-Means clustering implementation
-- **Data Visualization**: Creating meaningful charts and graphs
-- **Web Development**: Building interactive applications with Streamlit
-- **Deployment**: Publishing applications to the cloud
-- **Data Analysis**: Deriving business insights from customer data
-
-## 🔍 Key Insights
-
-The clustering analysis typically reveals customer segments such as:
-
-1. **🌟 High Value Customers**: High income + High spending (Premium customers)
-2. **💰 Potential Premium**: High income + Low spending (Conversion opportunity)
-3. **⚠️ At-Risk Customers**: Low income + High spending (Risk group)
-4. **💤 Budget Conscious**: Low income + Low spending (Price sensitive)
-5. **📊 Moderate Customers**: Average income and spending (Standard segment)
-
-## 📈 Future Enhancements
-
-Potential improvements:
-- [ ] Add more clustering algorithms (DBSCAN, Hierarchical)
-- [ ] Include age-based segmentation
-- [ ] Implement 3D visualization
-- [ ] Add predictive modeling
-- [ ] Customer lifetime value calculation
-- [ ] Export visualizations as images
-
-## 📄 License
+## License
 
 This project is licensed under the MIT License.
 
-## 👨‍💻 Author
+## Author
 
 **Jahid Hasan Sagor**
 - GitHub: [@jahidhasansagor-buet](https://github.com/jahidhasansagor-buet)
 - Project: [Machine Learning Projects](https://github.com/jahidhasansagor-buet/machine-learning-projects)
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Dataset provided as part of machine learning coursework
-- Built as part of academic project requirements
-- Streamlit community for excellent documentation
-- Scikit-learn for robust ML algorithms
 
----
-
-**⭐ If you found this project helpful, please give it a star!**
-
-## 📞 Contact
-
-For questions or feedback, please open an issue on GitHub.
-
----
-
-<div align="center">
-  Made with ❤️ using Python and Streamlit
-  <br>
-  <a href="https://mall-customer-segmentation.streamlit.app">🚀 View Live Demo</a>
-</div>
