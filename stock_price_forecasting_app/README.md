@@ -71,11 +71,7 @@ stock-forecast-app/
 2. Go to [share.streamlit.io](https://share.streamlit.io)
 3. Sign in with your GitHub account
 4. Click "Create app" → "Deploy a public app from GitHub"
-5. Configure:
-   - Repository: `jahidhasansagor-buet/machine-learning-projects/stock_price_forecasting_app`
-   - Branch: `main`
-   - Main file path: `app.py`
-   - App URL: Choose a custom URL
+5. Configure
 6. Click "Deploy"
 7. Wait for deployment (usually 2-5 minutes)
 
