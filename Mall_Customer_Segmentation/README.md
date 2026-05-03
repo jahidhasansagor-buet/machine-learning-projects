@@ -9,7 +9,7 @@ A machine learning web application that performs customer segmentation using K-M
 
 ## Live Demo
 
-**Try the app here:** [https://mall-customer-segmentation.streamlit.app](https://mall-customer-segmentation.streamlit.app](https://jahid-machine-learning-projects-mall-customer-segmentation.streamlit.app/)
+**Try the app here:** [[https://mall-customer-segmentation.streamlit.app]
 
 ## Table of Contents
 
@@ -115,7 +115,7 @@ The app will open in your default browser at `http://localhost:8501`
 ## Deployment
 
 This app is deployed on **Streamlit Cloud** and accessible at:
-**[https://mall-customer-segmentation.streamlit.app](https://mall-customer-segmentation.streamlit.app)**
+**[(https://jahid-machine-learning-projects-mall-customer-segmentation.streamlit.app]**
 
 ### Deploy Your Own Version
 
