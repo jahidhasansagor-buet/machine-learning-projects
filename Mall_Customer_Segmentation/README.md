@@ -9,7 +9,7 @@ A machine learning web application that performs customer segmentation using K-M
 
 ## Live Demo
 
-**Try the app here:** [[https://mall-customer-segmentation.streamlit.app]
+**Try the app here:** [https://mall-customer-segmentation.streamlit.app](https://jahid-machine-learning-projects-mall-customer-segmentation.streamlit.app)
 
 ## Table of Contents
 
