@@ -1,4 +1,4 @@
-# 🛍️ Mall Customer Segmentation
+# Mall Customer Segmentation
 
 A machine learning web application that performs customer segmentation using K-Means clustering on mall customer data. Built with Streamlit for interactive data exploration and visualization.
 
@@ -7,7 +7,7 @@ A machine learning web application that performs customer segmentation using K-M
 ![Scikit-learn](https://img.shields.io/badge/scikit--learn-latest-orange.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -19,7 +19,7 @@ A machine learning web application that performs customer segmentation using K-M
 - [Technologies Used](#technologies-used)
 - [Screenshots](#screenshots)
 
-## 🎯 Overview
+## Overview
 
 This project implements customer segmentation using K-Means clustering to identify distinct groups of mall customers based on their annual income and spending score. The interactive web application helps businesses understand their customer base and develop targeted marketing strategies.
 
@@ -29,7 +29,7 @@ This project implements customer segmentation using K-Means clustering to identi
 - Understand spending patterns
 - Support data-driven marketing decisions
 
-## ✨ Features
+## Features
 
 ### Core Features
 - **📊 Dataset Overview**: Comprehensive dataset statistics and preview
@@ -45,7 +45,7 @@ This project implements customer segmentation using K-Means clustering to identi
 - **💡 Smart Insights**: Automatic categorization of clusters (High Value, Budget Conscious, etc.)
 - **💾 Export Functionality**: Download clustered data and analysis results as CSV
 
-## 📊 Dataset
+## Dataset
 
 **File**: `Mall_Customers.csv`
 
@@ -63,7 +63,7 @@ This project implements customer segmentation using K-Means clustering to identi
 - **Features**: 5
 - **Target Variables for Clustering**: Annual Income, Spending Score
 
-## 🚀 Installation
+## Installation
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -85,7 +85,7 @@ pip install -r requirements.txt
 streamlit --version
 ```
 
-## 💻 Usage
+## Usage
 
 ### Run Locally
 ```bash
@@ -107,7 +107,7 @@ The app will open in your default browser at `http://localhost:8501`
 - **Expandable Sections**: Click to view detailed dataset information
 - **Download Buttons**: Export results as CSV files
 
-## 🌐 Deployment
+## Deployment
 
 ### Deploy to Streamlit Cloud
 
@@ -137,7 +137,7 @@ The app will open in your default browser at `http://localhost:8501`
 ### Environment Requirements
 All dependencies are specified in `requirements.txt` and will be automatically installed during deployment.
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 mall-customer-segmentation/
@@ -150,7 +150,7 @@ mall-customer-segmentation/
 └── .gitignore                  # Git ignore file (optional)
 ```
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 ### Core Technologies
 - **Python 3.8+**: Programming language
@@ -166,8 +166,6 @@ mall-customer-segmentation/
 ### Additional Libraries
 - **kneed**: Automatic elbow detection using KneeLocator algorithm
 
-## 📸 Screenshots
-
 ### Dataset Overview
 The app displays comprehensive dataset statistics including customer counts, gender distribution, and data preview.
 
@@ -180,7 +178,7 @@ Beautiful scatter plots showing customer segments colored by cluster, with centr
 ### Cluster Profiles
 Detailed statistical breakdown of each cluster including average age, income, and spending score.
 
-## 🎓 Learning Outcomes
+## Learning Outcomes
 
 This project demonstrates:
 - **Unsupervised Learning**: K-Means clustering implementation
@@ -189,7 +187,7 @@ This project demonstrates:
 - **Deployment**: Publishing applications to the cloud
 - **Data Analysis**: Deriving business insights from customer data
 
-## 🔍 Key Insights
+## Key Insights
 
 The clustering analysis typically reveals customer segments such as:
 
@@ -199,40 +197,14 @@ The clustering analysis typically reveals customer segments such as:
 4. **💤 Budget Conscious**: Low income + Low spending
 5. **📊 Moderate Customers**: Average income and spending
 
-## 📈 Future Enhancements
-
-Potential improvements:
-- [ ] Add more clustering algorithms (DBSCAN, Hierarchical)
-- [ ] Include age-based segmentation
-- [ ] Implement 3D visualization
-- [ ] Add predictive modeling
-- [ ] Include customer lifetime value calculation
-- [ ] Export visualizations as images
-- [ ] Add cluster comparison features
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 👨‍💻 Author
-
-**Kawchar Husain**
-
-## 🙏 Acknowledgments
-
+## Acknowledgments
 - Dataset provided as part of machine learning coursework
-- Streamlit community for excellent documentation
-- Scikit-learn for robust ML algorithms
 
----
-
-**⭐ If you found this project helpful, please give it a star!**
-
-## 📞 Contact
 
 For questions or feedback, please open an issue on GitHub.
 
