@@ -32,18 +32,18 @@ This project implements customer segmentation using K-Means clustering to identi
 ## Features
 
 ### Core Features
-- **📊 Dataset Overview**: Comprehensive dataset statistics and preview
-- **📉 Elbow Method Analysis**: Visual tool to determine optimal number of clusters
-- **🔄 K-Means Clustering**: Interactive clustering with adjustable K value
-- **📊 Cluster Visualization**: Scatter plots showing customer segments
-- **💾 Live Deployment**: Accessible via public Streamlit Cloud URL
+- **Dataset Overview**: Comprehensive dataset statistics and preview
+- **Elbow Method Analysis**: Visual tool to determine optimal number of clusters
+- **K-Means Clustering**: Interactive clustering with adjustable K value
+- **Cluster Visualization**: Scatter plots showing customer segments
+- **Live Deployment**: Accessible via public Streamlit Cloud URL
 
 ### Advanced Features
-- **🎯 Automatic K Suggestion**: Uses KneeLocator algorithm for optimal cluster detection
-- **📋 Cluster Profiles**: Detailed statistical analysis of each customer segment
-- **👥 Gender Distribution**: Gender breakdown analysis per cluster
-- **💡 Smart Insights**: Automatic categorization of clusters (High Value, Budget Conscious, etc.)
-- **💾 Export Functionality**: Download clustered data and analysis results as CSV
+- **Automatic K Suggestion**: Uses KneeLocator algorithm for optimal cluster detection
+- **Cluster Profiles**: Detailed statistical analysis of each customer segment
+- **Gender Distribution**: Gender breakdown analysis per cluster
+- **Smart Insights**: Automatic categorization of clusters (High Value, Budget Conscious, etc.)
+- **Export Functionality**: Download clustered data and analysis results as CSV
 
 ## Dataset
 
@@ -191,23 +191,19 @@ This project demonstrates:
 
 The clustering analysis typically reveals customer segments such as:
 
-1. **🌟 High Value Customers**: High income + High spending
-2. **💰 Potential Premium**: High income + Low spending (conversion opportunity)
-3. **⚠️ At-Risk Customers**: Low income + High spending
-4. **💤 Budget Conscious**: Low income + Low spending
-5. **📊 Moderate Customers**: Average income and spending
+1. **High Value Customers**: High income + High spending
+2. **Potential Premium**: High income + Low spending (conversion opportunity)
+3. **At-Risk Customers**: Low income + High spending
+4. **Budget Conscious**: Low income + Low spending
+5. **Moderate Customers**: Average income and spending
 
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgments
 - Dataset provided as part of machine learning coursework
 
-
 For questions or feedback, please open an issue on GitHub.
 
----
-
-Made with ❤️ using Python and Streamlit
