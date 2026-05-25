@@ -40,7 +40,7 @@ A machine learning project that predicts the selling price of used cars based on
 
 Deployed using Streamlit.
 
-[Live Demo](https://machine-learning-projects-qh3yhfrbhtqohj8yjvkm3t.streamlit.app/)
+[Live Demo](https://machine-learning-projects-jahid2.streamlit.app/)
 
 ### Screenshots
 
