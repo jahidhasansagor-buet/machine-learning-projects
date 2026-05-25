@@ -40,7 +40,7 @@ A machine learning project that predicts the selling price of used cars based on
 
 Deployed using Streamlit.
 
-[Live URL — add your Streamlit Cloud link here]
+[Live Demo](https://machine-learning-projects-qh3yhfrbhtqohj8yjvkm3t.streamlit.app/)
 
 ### Screenshots
 
@@ -49,8 +49,8 @@ Deployed using Streamlit.
 ## Installation
 
 ```bash
-git clone [your-repo-url]
-cd used-car-price-prediction
+git clone https://github.com/jahidhasansagor-buet/machine-learning-projects.git
+cd machine-learning-projects/used-car-price-prediction
 pip install -r requirements.txt
 ```
 
