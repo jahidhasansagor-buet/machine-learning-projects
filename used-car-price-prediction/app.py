@@ -1,16 +1,17 @@
 import streamlit as st
 import pandas as pd
 import joblib
+import os
 
-# Load the pipeline once at startup
-pipeline = joblib.load('models/best_model.pkl')
+# this makes the path relative to app.py itself, not the working directory
+model_path = os.path.join(os.path.dirname(__file__), 'models', 'best_model.pkl')
+pipeline = joblib.load(model_path)
 
 st.title("Used Car Price Predictor")
 st.write("Fill in the details below and click the button to get an estimated selling price.")
 
 st.markdown("---")
 
-# Input fields
 col1, col2 = st.columns(2)
 
 with col1:
@@ -26,7 +27,6 @@ with col2:
 
 st.markdown("---")
 
-# Predict button
 if st.button("Predict Selling Price"):
     input_df = pd.DataFrame([{
         'Present_Price': present_price,
@@ -39,7 +39,7 @@ if st.button("Predict Selling Price"):
     }])
 
     prediction = pipeline.predict(input_df)[0]
-    prediction = max(0, prediction)  # just to avoid any negative output
+    prediction = max(0, prediction)
 
     st.success(f"Estimated Selling Price: {prediction:.2f} Lakhs")
-    st.info(f"Note: This is an estimate based on {301} training samples from the CarDekho dataset.")
+    st.info(f"Note: This is an estimate based on 301 training samples from the CarDekho dataset.")
