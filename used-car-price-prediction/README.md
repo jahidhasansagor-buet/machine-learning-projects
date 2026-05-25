@@ -44,7 +44,7 @@ Deployed using Streamlit.
 
 ### Screenshots
 
-![Streamlit App](screenshots/streamlit_app.png)
+![Streamlit App](screenshots/car_price_prediction_screenshot.png)
 
 ## Installation
 
