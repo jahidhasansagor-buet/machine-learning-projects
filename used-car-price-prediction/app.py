@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load the pipeline once at startup
-pipeline = joblib.load('models/best_model.pkl')
+pipeline = joblib.load('used-car-price-prediction/models/best_model.pkl')
 
 st.title("Used Car Price Predictor")
 st.write("Fill in the details below and click the button to get an estimated selling price.")
