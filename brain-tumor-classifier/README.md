@@ -37,7 +37,7 @@ running locally on CPU.
 
 ## Installation
 ```bash
-git clone [machine-learning-projects](https://github.com/jahidhasansagor-buet/machine-learning-projects.git)
+git clone https://github.com/jahidhasansagor-buet/machine-learning-projects.git
 cd brain-tumor-classifier
 pip install -r requirements.txt
 ```
