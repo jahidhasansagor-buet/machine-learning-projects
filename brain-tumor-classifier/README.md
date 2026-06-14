@@ -35,23 +35,16 @@ running locally on CPU.
 }
 ```
 
-## Screenshots
-### Swagger UI
-![Swagger](screenshots/swagger.png)
-
 ## Installation
 ```bash
-git clone <your-repo-url>
+git clone [machine-learning-projects](https://github.com/jahidhasansagor-buet/machine-learning-projects.git)
 cd brain-tumor-classifier
 pip install -r requirements.txt
 ```
-Place your trained weights `vit_brain_tumor.pt` in the `artifacts/` folder
-(it is not committed to git because of its size).
 
 ## Run
 ```bash
 fastapi dev main.py
-# Open http://localhost:8000/docs
 ```
 
 ## Technologies Used
